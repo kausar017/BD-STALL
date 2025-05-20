@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
     return (
         <div className=' bg-[#6ab802]'>
-            <div className='w-full max-w-[1300px] mx-auto pl-2 text-white flex items-center gap-6 font-semibold '>
+            <div className='w-full max-w-[1300px] mx-auto text-white flex items-center gap-6 font-semibold '>
                 <ul className="menu menu-horizontal px-1">
                     <li className="dropdown dropdown-hover">
                         <a tabIndex={0}>Computer</a>

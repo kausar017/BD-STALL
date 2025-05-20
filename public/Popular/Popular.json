@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Computer",
+    "image": "https://cdn-icons-png.flaticon.com/512/149/149071.png"
+  },
+  {
+    "category": "Electronics",
+    "image": "https://cdn-icons-png.flaticon.com/512/3143/3143460.png"
+  },
+  {
+    "category": "Security & Industry",
+    "image": "https://cdn-icons-png.flaticon.com/512/3103/3103446.png"
+  },
+  {
+    "category": "Travels",
+    "image": "https://cdn-icons-png.flaticon.com/512/201/201623.png"
+  },
+  {
+    "category": "Health & Beauty",
+    "image": "https://cdn-icons-png.flaticon.com/512/2921/2921822.png"
+  },
+  {
+    "category": "Car & Bike",
+    "image": "https://cdn-icons-png.flaticon.com/512/743/743007.png"
+  },
+  {
+    "category": "Furniture",
+    "image": "https://cdn-icons-png.flaticon.com/512/1995/1995533.png"
+  },
+  {
+    "category": "Real Estate",
+    "image": "https://cdn-icons-png.flaticon.com/512/484/484167.png"
+  },
+  {
+    "category": "Everything Else",
+    "image": "https://cdn-icons-png.flaticon.com/512/565/565547.png"
+  },
+  {
+    "category": "More",
+    "image": "https://cdn-icons-png.flaticon.com/512/61/61088.png"
+  }
+]
