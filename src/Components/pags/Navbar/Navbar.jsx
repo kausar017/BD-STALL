@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaSearch } from 'react-icons/fa';
+import logo from '../../../assets/bdstall.png'
 import { TbCoinTakaFilled } from 'react-icons/tb';
 import { TiShoppingCart } from 'react-icons/ti';
 import { Link } from 'react-router-dom';
@@ -14,7 +13,7 @@ const Navbar = () => {
                         </div>
 
                     </div>
-                    <Link to='/' className=" w-50"><img src="../../../../src/assets/bdstall.png" alt="" /></Link>
+                    <Link to='/' className=" w-50"><img src={logo} alt={logo} /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <div className="join flex items-center">
