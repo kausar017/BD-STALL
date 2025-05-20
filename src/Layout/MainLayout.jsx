@@ -5,7 +5,7 @@ import Navigation from '../Components/pags/Navigation/Navigation';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className=''>
             {/* navbar */}
             <Navbar />
             {/* Navigation */}

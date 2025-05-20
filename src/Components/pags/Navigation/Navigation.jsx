@@ -4,53 +4,109 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
     return (
         <div className=' bg-[#6ab802]'>
-            <div className='container mx-auto pl-2 text-white flex items-center gap-6 font-semibold '>
+            <div className='w-full max-w-[1300px] mx-auto pl-2 text-white flex items-center gap-6 font-semibold '>
                 <ul className="menu menu-horizontal px-1">
-                    <li>
-                        <details>
-                            <summary>Computer</summary>
-                            <ul className='p-2 bg-[#000]/30 w-40 flex flex-col items-center justify-center'>
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                                <li>hello</li>
-                            </ul>
-                        </details>
+                    <li className="dropdown dropdown-hover">
+                        <a tabIndex={0}>Computer</a>
+                        <ul className="dropdown-content z-[1] menu p-2 bg-[#000]/30 w-40 flex flex-col items-center">
+                            <li><a>hello</a></li>
+                            <li><a>hello</a></li>
+                            <li><a>hello</a></li>
+                            <li><a>hello</a></li>
+                            <li><a>hello</a></li>
+                            <li><a>hello</a></li>
+
+                        </ul>
                     </li>
-                    <li>
-                        <details>
-                            <summary>Electronics</summary>
-                            <ul className='p-2 bg-[#000]/30 w-40 flex flex-col items-center justify-center'>
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Submenu 2</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
+
+                    <li className="dropdown dropdown-hover">
+                        <a tabIndex={0}>Electronics</a>
+                        <ul className="dropdown-content z-[1] menu p-2 bg-[#000]/30 w-40 flex flex-col items-center">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                            <li><a>Submenu 3</a></li>
+                            <li><a>Submenu 4</a></li>
+                            <li><a>Submenu 5</a></li>
+                            <li><a>Submenu 6</a></li>
+
+                        </ul>
                     </li>
-                    <li><a>Item 3</a></li>
+                    <li className="dropdown dropdown-hover">
+                        <a tabIndex={0}>Security and Industry</a>
+                        <ul className="dropdown-content z-[1] menu p-2 bg-[#000]/30 w-40 flex flex-col items-center">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                            <li><a>Submenu 3</a></li>
+                            <li><a>Submenu 4</a></li>
+                            <li><a>Submenu 5</a></li>
+                            <li><a>Submenu 6</a></li>
+
+                        </ul>
+                    </li>
+                    <li className="dropdown dropdown-hover">
+                        <a tabIndex={0}>Travels</a>
+                        <ul className="dropdown-content z-[1] menu p-2 bg-[#000]/30 w-40 flex flex-col items-center">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                            <li><a>Submenu 3</a></li>
+                            <li><a>Submenu 4</a></li>
+                            <li><a>Submenu 5</a></li>
+                            <li><a>Submenu 6</a></li>
+
+                        </ul>
+                    </li>
+                    <li className="dropdown dropdown-hover">
+                        <a tabIndex={0}>Health & Beauty</a>
+                        <ul className="dropdown-content z-[1] menu p-2 bg-[#000]/30 w-40 flex flex-col items-center">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                            <li><a>Submenu 3</a></li>
+                            <li><a>Submenu 4</a></li>
+                            <li><a>Submenu 5</a></li>
+                            <li><a>Submenu 6</a></li>
+
+                        </ul>
+                    </li>
+                    <li className="dropdown dropdown-hover">
+                        <a tabIndex={0}>Household</a>
+                        <ul className="dropdown-content z-[1] menu p-2 bg-[#000]/30 w-40 flex flex-col items-center">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                            <li><a>Submenu 3</a></li>
+                            <li><a>Submenu 4</a></li>
+                            <li><a>Submenu 5</a></li>
+                            <li><a>Submenu 6</a></li>
+
+                        </ul>
+                    </li>
+                    <li className="dropdown dropdown-hover">
+                        <a tabIndex={0}>Car & Bike</a>
+                        <ul className="dropdown-content z-[1] menu p-2 bg-[#000]/30 w-40 flex flex-col items-center">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                            <li><a>Submenu 3</a></li>
+                            <li><a>Submenu 4</a></li>
+                            <li><a>Submenu 5</a></li>
+                            <li><a>Submenu 6</a></li>
+
+                        </ul>
+                    </li>
+                    <li className="dropdown dropdown-hover">
+                        <a tabIndex={0}>Real Estate</a>
+                        <ul className="dropdown-content z-[1] menu p-2 bg-[#000]/30 w-40 flex flex-col items-center">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                            <li><a>Submenu 3</a></li>
+                            <li><a>Submenu 4</a></li>
+                            <li><a>Submenu 5</a></li>
+                            <li><a>Submenu 6</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li><a>More</a></li>
+
                 </ul>
-                {/* <Link className='list-none'>Security and Industry</Link>
-                <Link className='list-none'>Travels</Link>
-                <Link className='list-none'>Health & Beauty</Link>
-                <Link className='list-none'>Household</Link>
-                <Link className='list-none'>Car & Bike</Link>
-                <Link className='list-none'>Real Estate</Link>
-                <Link className='list-none'>More</Link> */}
 
                 <div className='xl:hidden'>
                     <div className="navbar-center lg:flex">
